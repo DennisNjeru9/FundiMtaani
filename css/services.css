@@ -1,3 +1,7 @@
+.nav-item {
+  font-size: 1.4vw;
+}
+
 #plumbing{
   background-color: #c4c4c4;
   height: 120px;
@@ -6,6 +10,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 7px;
+  font-size: large;
 }
 
 #electricals{
@@ -16,6 +21,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 7px;
+  font-size: large;
 }
 
 #carpentry{
@@ -26,6 +32,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 7px;
+  font-size: large;
 }
 
 #ceramics{
@@ -36,6 +43,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 7px;
+  font-size: large;
 }
 
 #masonry{
@@ -46,6 +54,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 7px;
+  font-size: large;
 }
 
 /*contact box*/
