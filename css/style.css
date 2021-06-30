@@ -72,20 +72,64 @@ img {
 .font-cond-b {
     font-weight: 700 !important;
 }
+.mar{
+  position: relative;
+  top: 45rem;
+  color: #ddd;
+  text-shadow: 3px 2px 3px black;
+  margin-top: -30rem;
+}
+.welcome{
+  font-size: 50px;
+}
+.fundi{
+  font-size: 30px;
+}
+.ensure{
+  font-size: 30px;
+}
+.today{
+  position: relative;
+  top: -30rem;
+  color: #ddd;
+  font-size: 30px;
+  text-shadow: 3px 2px 3px black;
+}
 /* .you{
   border: 2px solid black;
   height: 50vh;
-
 } */
 .are{
   border: 2px solid black; 
   float: left;
 }
+.line{
+  height: 50vh;
+}
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #605047; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(250, 93, 2); 
+}
 /* Contact box */
 .contact-box {
   position: relative;
-  /* top: 200rem; */
+  padding-top: -50rem;
 }
 
 .screen {
