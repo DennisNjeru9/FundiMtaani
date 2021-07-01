@@ -1,51 +1,68 @@
-#plumbing{
-  background-color: #c4c4c4;
-  height: 120px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px;
+.nav-item {
+  font-size: 1.4vw;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-#electricals{
-  background-color: #cd853f;
-  height: 120px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px;
+.d-flex{
+  font-size: larger;
 }
 
-#carpentry{
-  background-color: #e5d2ab;
-  height: 120px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px;
+.card img{
+  height: 400px;
 }
 
-#ceramics{
-  background-color:#fbfff4;
-  height: 120px;
-  font-weight: 400px;
+.card p{
+  font-size: large;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px;
 }
 
-#masonry{
-  background-color: #d2d1cd;
-  height: 120px;
-  font-weight: 400px;
+.card h5{
+  font-size: large;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px;
+}
+
+.card{
+  padding: 10px;
+  margin: 20px;
+  border: 1px hidden gray;
+  border-radius: 6px;
+}
+
+#services-one{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#services-two{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#plumbing .card-body{
+  background-color: rgba(196,196,196,0.3);
+  
+}
+
+#electricals .card-body{
+  background-color: rgba(205,133,63,0.3);
+  
+}
+
+#carpentry .card-body{
+  background-color: rgba(229,210,171,0.9);
+}
+
+#ceramics .card-body{
+  background-color: rgba(251,255,244,0.9);
+}
+
+#masonry .card-body{
+  background-color: rgba(210,209,205,0.9);
 }
 
 /*contact box*/

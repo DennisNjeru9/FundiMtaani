@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  
+  <link rel="icon" href="./img/logo.png" type="icon">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/services.css">
@@ -13,147 +13,190 @@
   <title>Fundi Mtaani</title>
   </head>
   <body>
-      <!-- Header section. -->
-      <header class="section-header">
-        <nav class="navbar navbar-dark navbar-expand p-0 bg-dark">
-            <div class="container-fluid">
-                <ul class="navbar-nav d-none d-md-flex mr-auto">
-                  <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Find a Fundi</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Recommend a Fundi</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Sign Up to be a Fundi</a></li>
-                </ul>
-                <ul class="navbar-nav d-flex align-items-center">
-                  <li class="nav-item">
-                    <div class="d-flex flex-row"> <img src="images/pexels-tima-miroshnichenko-6474458.jpg" class="rounded-circle" width="30"> </div>
-                  </li>
-
-                  Plumbing     </ul>
-              </div>
-        </nav>
+    <!-- Header section. -->
+    <header class="section-header sticky-top">
+      <nav class="navbar navbar-dark navbar-expand p-0 bg-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav d-none d-md-flex mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Find a Fundi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Recommend a Fundi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-abc="true">Sign Up to be a Fundi</a></li>
+          </ul>
+          <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item">
+              <div class="d-flex flex-row"> <img src="img/logo.png" class="rounded-circle" width="30"> </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <!-- header-top-light.// -->
-        <section class="header-main border-bottom bg-white">
-            <div class="container-fluid">
-                <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
-                  <div class="col-md-2"> <img class="d-none d-md-flex" src="images/pexels-tima-miroshnichenko-6790938.jpg" width="100"> </div>
-                  <div class="col-md-8">
-                      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                          <div class="container-fluid"> <a class="navbar-brand d-md-none d-md-flex" href="#">Categories</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                  <ul class="navbar-nav">
-                                      <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
-                                      <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
-                                      <li class="nav-item"> <a class="nav-link" href="#">Reviews</a> </li>
-                                      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                              <li><a class="dropdown-item" href="#">Plumbers</a></li>
-                                              <li><a class="dropdown-item" href="#">Electricians</a></li>
-                                              <li><a class="dropdown-item" href="#">Carpenters</a></li>
-                                              <li><a class="dropdown-item" href="#">Ceramics</a></li>
-                                              <li><a class="dropdown-item" href="#">Masonry</a></li>
-                                              <li><a class="dropdown-item" href="#">Gardening</a></li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                                </div>
-                          </div>
-                      </nav>
+      <section class="header-main border-bottom bg-white">
+        <div class="container-fluid">
+            <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
+              <div class="col-md-2"> <img class="d-none d-md-flex" src="img/logo.png" width="100"> </div>
+              <div class="col-md-8">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container-fluid"> <a class="navbar-brand d-md-none d-md-flex" href="#">Categories</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="home.html">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="about.html">About Us</a> </li>
+                        <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#plumbing">Plumbing</a></li>
+                            <li><a class="dropdown-item" href="#electricals">Electricals</a></li>
+                            <li><a class="dropdown-item" href="#carpentry">Carpentry</a></li>
+                            <li><a class="dropdown-item" href="#ceramics">Ceramics</a></li>
+                            <li><a class="dropdown-item" href="#masonry">Masonry</a></li>
+                            <li><a class="dropdown-item" href="#windows">Windows</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="col-md-2">
-                      <div class="d-flex d-none d-md-flex flex-row align-items-center"> <span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span>
-                        <div class="d-flex flex-column ms-2">
-                              <span class="qty">
-                              <li class="nav-item">
-                                <a href="#" class="nav-link d-flex align-items-center" data-abc="true">
-                                  <span>Sign Up/Log In</span>
-                                  
-                                </a>
-                              </li>
-                            </span>
-                        </div>
-                      </div>
-                  </div>
+                </nav>
               </div>
-            </div>
-        </section>
-  </header>
+              <div class="col-md-2">
+                <div class="d-flex d-none d-md-flex flex-row align-items-center">
+                  <div class="d-flex flex-column ms-2">
+                    <a href="#" class="nav-link d-flex align-items-center" data-abc="true">
+                      <span>Sign Up/Log In</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </header>
 
-  <div class="container-fluid" id="plumbing">
-    <h2>Plumbing</h2>
-    <p></p>
-  </div>
-  <div class="container-fluid" id="electricals">
-    <h2>Electricals</h2>
-    <p></p>
-  </div>
-  <div class="container-fluid" id="carpentry">
-    <h2>Carpentry</h2>
-    <p></p>
-  </div>
-  <div class="container-fluid" id="ceramics">
-    <h2>Ceramics</h2>
-    <p></p>
-  </div>
-  <div class="container-fluid" id="masonry">
-    <h2>Masonry</h2>
-    <p></p>
-  </div>
+    <div class="card-group" id="services-one">
+      <div class="card" id="plumbing">
+        <img src="img/plumbing1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Plumbing</h5>
+          <p class="card-text">
+            Plumbers are synonymous with <strong>pipes and drainages</strong>. The main drainage areas in your home include the kitchen, 
+            bathroom, toilet, and gutters. For toilets with a weak flush; leaking sink, cistern, gutter or tank; and gurgling sink 
+            or tub, our skilled workers will guarantee a quick return to your normal life.
+          </p>
+        </div>
+      </div>
+      <div class="card" id="electricals">
+        <img src="img/electricity1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Electricals</h5>
+          <p class="card-text">
+            In the event you have a small repair project involving <strong>electrical wiring or lighting</strong> in your home, as well as, 
+            different electrical components you can contact the skilled workers under the electrical banner. Our 
+            electricians are more than three years experienced.
+          </p>
+        </div>
+      </div>
+      <div class="card" id="carpentry">
+        <img src="img/carpentry.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Carpentry</h5>
+          <p class="card-text">
+            Carpenters mainly deal with <strong>timber</strong>. Some of the timber features in your house include doors and furniture. 
+            So, if the furniture in your home begins showing signs of damage, wear, or tear, then it is time to seek the assistance of 
+            our professional carpenters.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-group" id="services-two">
+      <div class="card" id="ceramics">
+        <img src="img/ceramics.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ceramics</h5>
+          <p class="card-text">
+            Ceramics are now a trend in most, if not all homes. They include <strong>tiles</strong> on your floor, toilet wall, bathroom wall, 
+            and kitchen, as well as, marbles in different areas of your home. It is time to contact our ceramics professionals if the tiles in your home are 
+            broken and chipped and need fixing or replacement.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/masonry.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Masonry</h5>
+          <p class="card-text">
+            Masons primarily deal with <strong>stone and concrete-related works.</strong> Our masons will take care of your
+            damaged stone or concrete walls, steps, and floors, drywalls. Damaged walls and floors look unsightly, while drywalls suffer cracks 
+            and moisture, becoming dangerous to you and your loved ones. Becuase of this, you should not hesitate to give our skilled workers 
+            a call.
+          </p>
+        </div>
+      </div>
+      <div class="card" id="windows">
+        <img src="img/window_repair.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Window Repair</h5>
+          <p class="card-text">
+            If you are struggling to close your home windows, notice chipped exteriors, weared frames, or damaged screens, 
+            then its time to contact one of our skilled workers for repair to boost the appeal of your home's exteriors. 
+          </p>
+        </div>
+      </div>
+    </div>
 
 
-  <!-- Contact box -->
-  <div class="contact-box">
-    <div class="screen">
-       <!-- Screen header -->
+    <!-- Contact box -->
+    <div class="contact-box">
+      <div class="screen">
+        <!-- Screen header -->
         <div class="screen-header">
           Reach out to our team!
         </div>
 
-      <!-- Screen body -->
-      <div class="screen-body">
+        <!-- Screen body -->
+        <div class="screen-body">
 
-            <!-- Left contents -->
-            <div class="screen-body-item left">
-                    <div class="left-title">
-                      <span>CONTACT</span>
-                      <span>US</span>
-                    </div>
-                    <div class="my-contact">
-                      CONTACT INFO : +254 790486172
-                    </div>
+          <!-- Left contents -->
+          <div class="screen-body-item left">
+            <div class="left-title">
+              <span>CONTACT US</span>
+            </div>
+            <div class="my-contact">
+              CONTACT INFO : +254 790486172
+            </div>
+          </div>
+
+          <!-- Right contents -->
+          <div class="screen-body-item">
+            <div class="inputs">
+              <div class="text-input">
+                <input class="input-example" placeholder="NAME" value="eg. Wendy Ondigo"/>
               </div>
-
-              <!-- Right contents -->
-              <div class="screen-body-item">
-                <div class="inputs">
-                          <div class="text-input">
-                            <input class="input-example" placeholder="NAME" value="eg. Wendy Ondigo"/>
-                          </div>
-                          <div class="text-input">
-                            <input class="input-example" placeholder="EMAIL" />
-                          </div>
-                          <div class="text-input">
-                            <input class="input-example" placeholder="CONTACT NO" />
-                          </div>
-                          <div class="text-input message">
-                            <input class="input-example" placeholder="MESSAGE" />
-                          </div>
-                          <div class="submit-buttons">
-                            <button class="submit-button">CANCEL</button>
-                            <button class="submit-button">SUBMIT</button>
-                          </div>
-                </div>
+              <div class="text-input">
+                <input class="input-example" placeholder="EMAIL" />
               </div>
-  </div>
-</div>
+              <div class="text-input">
+                <input class="input-example" placeholder="CONTACT NO" />
+              </div>
+              <div class="text-input message">
+                <input class="input-example" placeholder="MESSAGE" />
+              </div>
+              <div class="submit-buttons">
+                <button class="submit-button">CANCEL</button>
+                <button class="submit-button">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
 
 
 
 
-<!-- <script src="//maxcdn.CONFLICT (modify/delete): index.html deleted in HEAD and modified in development. Version development of index.html left in tree.
-Automatic merge failed; fix conflicts and then commit the result.bootstrapcdn.com/bootstrap/3.6.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
-<script src="js/jquery-3.6.0.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/services.js"></script>
+    <!-- <script src="//maxcdn.CONFLICT (modify/delete): index.html deleted in HEAD and modified in development. Version development of index.html left in tree.
+    Automatic merge failed; fix conflicts and then commit the result.bootstrapcdn.com/bootstrap/3.6.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/services.js"></script>
 
   </body>
 </html>
